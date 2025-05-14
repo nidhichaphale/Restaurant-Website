@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gulzar - Luxury Dining | Hyderabad</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+    <!-- Navigation Bar -->
+    <nav>
+        <img src="gulzar.jpg" alt="logo" class="logo" height="100" width="100">
+        <div class="nav-container">
+            <a href="#" class="logo">GULZAR</a>
+
+    
+            
+            <div class="nav-links">
+                <a href="#" class="active">Home</a>
+                <a href="#menu">Menu</a>
+                <a href="#reservation">Reservations</a>
+                <a href="#contact">Contact</a>
+                <a href="#feedback">Feedback</a>
+            </div>
+            
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+    
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <div class="mobile-menu-close" id="mobileMenuClose">
+            <i class="fas fa-times"></i>
+        </div>
+        <div class="mobile-menu-links">
+            <a href="#" class="active">Home</a>
+            <a href="#menu">Menu</a>
+            <a href="#reservation">Reservations</a>
+            <a href="#contact">Contact</a>
+            <a href="#feedback">Feedback</a>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content animate__animated animate__fadeIn animate__delay-1s">
+            <h1 class="animate__animated animate__fadeInUp">Luxury Dining Experience</h1>
+            <p class="animate__animated animate__fadeInUp animate__delay-1s">Experience the pinnacle of Hyderabadi cuisine at Gulzar, where royal flavors meet contemporary elegance in the heart of the city.</p>
+            <a href="#reservation" class="btn animate__animated animate__fadeInUp animate__delay-2s">Reserve Your Table</a>
+        </div>
+    </section>
+    
+    <!-- Menu Section -->
+    <section id="menu" class="menu">
+        <div class="container">
+            <h2 class="section-title animate-fade">Our Culinary Offerings</h2>
+            
+            <div class="menu-grid">
+                <div class="menu-category delay-1">
+                    <h3>Signature Starters</h3>
+                    <div class="menu-item">
+                        <div class="menu-item-content">
+                            <div class="menu-item-name">Murgh Anari Tikka</div>
+                            <div class="menu-item-desc">Succulent chicken tikka marinated with pomegranate and spices, cooked in tandoor</div>
+                            <div class="menu-item-price">₹850</div>
+                        </div>
+                        <div class="menu-item-image">
+                            <img src="Murgh Anari Tikka.jpg" alt="Murgh Anari Tikka">
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-content">
+                            <div class="menu-item-name">Nawabi Paneer Tikka</div>
+                            <div class="menu-item-desc">Cottage cheese marinated in royal spices with bell peppers and onions</div>
+                            <div class="menu-item-price">₹750</div>
+                        </div>
+                        <div class="menu-item-image">
+                            <img src="Nawabi_Paneer_Tikka.jpg" alt="Nawabi Paneer Tikka">
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-content">
+                            <div class="menu-item-name">Gulzar Special Platter</div>
+                            <div class="menu-item-desc">Assortment of our finest kebabs and tikkas served with mint chutney</div>
+                            <div class="menu-item-price">₹1200</div>
+                        </div>
+                        <div class="menu-item-image">
+                            <img src="https://images.unsplash.com/photo-1603360946369-dc9bb6258143?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Gulzar Special Platter">
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="menu-category delay-2">
+                    <h3>Main Courses</h3>
+                    <div class="menu-item">
+                        <div class="menu-item-content">
+                            <div class="menu-item-name">Hyderabadi Dum Biryani</div>
+                            <div class="menu-item-desc">The legendary slow-cooked biryani with tender meat and aromatic spices</div>
+                            <div class="menu-item-price">₹950</div>
+                        </div>
+                        <div class="menu-item-image">
+                            <img src="https://images.unsplash.com/photo-1631515243349-e0cb75fb8d3a?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Hyderabadi Dum Biryani">
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-content">
+                            <div class="menu-item-name">Nalli Nihari</div>
+                            <div class="menu-item-desc">Slow-cooked marrow-rich lamb shanks in a rich, spicy gravy</div>
+                            <div class="menu-item-price">₹1100</div>
+                        </div>
+                        <div class="menu-item-image">
+                            <img src="Nalli Nihari.jpg" alt="Nalli Nihari">
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-content">
+                            <div class="menu-item-name">Subz Handi</div>
+                            <div class="menu-item-desc">Seasonal vegetables cooked in an earthen pot with rich gravy</div>
+                            <div class="menu-item-price">₹750</div>
+                        </div>
+                        <div class="menu-item-image">
+                            <img src="https://images.unsplash.com/photo-1547592180-85f173990554?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Subz Handi">
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="menu-category delay-3">
+                    <h3>Desserts</h3>
+                    <div class="menu-item">
+                        <div class="menu-item-content">
+                            <div class="menu-item-name">Double Ka Meetha</div>
+                            <div class="menu-item-desc">Hyderabad's famous bread pudding with saffron and dry fruits</div>
+                            <div class="menu-item-price">₹450</div>
+                        </div>
+                        <div class="menu-item-image">
+                            <img src="Double Ka Meetha.jpg" alt="Double Ka Meetha">
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-content">
+                            <div class="menu-item-name">Shahi Tukda</div>
+                            <div class="menu-item-desc">Royal bread pudding with rabdi and silver leaf garnish</div>
+                            <div class="menu-item-price">₹500</div>
+                        </div>
+                        <div class="menu-item-image">
+                            <img src="Shahi Tukda.jpg" alt="Shahi Tukda">
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-content">
+                            <div class="menu-item-name">Gulzar Special Falooda</div>
+                            <div class="menu-item-desc">Vermicelli, basil seeds, rose syrup and ice cream dessert</div>
+                            <div class="menu-item-price">₹550</div>
+                        </div>
+                        <div class="menu-item-image">
+                            <img src="https://images.unsplash.com/photo-1572490122747-3968b75cc699?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Gulzar Special Falooda">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Reservation Section -->
+    <!-- Reservation Section -->
+<section id="reservation" class="reservation">
+    <div class="container">
+        <h2 class="section-title animate-fade">Make a Reservation</h2>
+        <form class="reservation-form">
+            <div class="form-group">
+                <label for="res-name">Full Name</label>
+                <input type="text" id="res-name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="res-email">Email Address</label>
+                <input type="email" id="res-email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="res-phone">Phone Number</label>
+                <input type="tel" id="res-phone" name="phone" required>
+            </div>
+            <div class="form-group">
+                <label for="res-date">Date</label>
+                <input type="date" id="res-date" name="date" required>
+            </div>
+            <div class="form-group">
+                <label for="res-time">Time</label>
+                <input type="time" id="res-time" name="time" required>
+            </div>
+            <div class="form-group">
+                <label for="res-guests">Number of Guests</label>
+                <select id="res-guests" name="guests" required>
+                    <option value="" disabled selected>Select number of guests</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <!-- More options... -->
+                </select>
+            </div>
+            <button type="submit" class="btn">Reserve Now</button>
+        </form>
+    </div>
+</section>
+
+                
+<!-- Contact Section -->
+<section id="contact" class="contact">
+    <div class="container">
+        <h2 class="section-title animate-fade">Get in Touch</h2>
+        
+        <div class="contact-info">
+            <div class="contact-card delay-1">
+                <i class="fas fa-map-marker-alt"></i>
+                <h3>Address</h3>        
+                <p>1234, Gulzar Road, Hyderabad, India</p>
+                <p>Pin: 500001</p>
+            </div>
+            <div class="contact-card delay-2">
+                <i class="fas fa-phone-alt"></i>
+                <h3>Phone</h3>
+                <p>+91 123 456 7890</p>
+                <p>+91 987 654 3210</p>
+            </div>
+            <div class="contact-card delay-3">
+                <i class="fas fa-envelope"></i>
+                <h3>Email</h3>
+                <p>reservations@gulzar.com</p>
+                <p>feedback@gulzar.com</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- < Feedback Section --> 
+<section id="feedback" class="feedback">
+    <form class="feedback-form" id="feedbackForm">
+
+    <div class="container">
+        <h2 class="section-title animate-fade">Share Your Experience</h2>
+        <form class="feedback-form">
+            <div class="form-group">
+                <label for="feedback-name">Your Name</label>
+                <input type="text" id="feedback-name" name="feedback-name" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="feedback-email">Email Address</label>
+                <input type="email" id="feedback-email" name="feedback-email" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="feedback-visit-date">Date of Visit</label>
+                <input type="date" id="feedback-visit-date" name="feedback-visit-date" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="feedback-rating">Rating</label>
+                <select id="feedback-rating" name="feedback-rating" required>
+                    <option value="" disabled selected>Select your rating</option>
+                    <option value="5">★★★★★ - Excellent</option>
+                    <option value="4">★★★★ - Very Good</option>
+                    <option value="3">★★★ - Good</option>
+                    <option value="2">★★ - Fair</option>
+                    <option value="1">★ - Poor</option>
+                </select>
+            </div>
+            
+            <div class="form-group">
+                <label for="feedback-message">Your Feedback</label>
+                <textarea id="feedback-message" name="feedback-message" required placeholder="Tell us about your dining experience..."></textarea>
+            </div>
+            
+            <button type="submit" class="btn">Submit Feedback</button>
+        </form>
+    </div>
+</section> 
+<script src="script.js"></script>
+
+</body>
+</html>
